@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(mountain.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    color: ghostwhite;
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+    color: navajowhite;
+}
+
+.p1
+{
+    margin-top: 40px;
+
+}
+
+.p1 a
+{
+    color: whitesmoke;
+    box-align: center;
+    border: 2px solid aquamarine;
+    padding: 7px;
+    margin: 5px;
+}
+
+div
+{
+    margin: auto;
+    border: 3px solid orange;
+    margin-top: 30px;
+    height: 70%;
+    width: 95%;
+}
+
+div p
+{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
