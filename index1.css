@@ -12,46 +12,66 @@ body
     background-position: center;
 }
 
-h1
+.topnav
 {
-    color: ghostwhite;
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-p
+.topnav a:hover
 {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.heading
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heading h1
+{
+    color: floralwhite;
     text-align: center;
-    color: navajowhite;
+    padding: 5px;
 }
 
-.p1
+.box
 {
-    margin-top: 40px;
-
-}
-
-.p1 a
-{
-    color: whitesmoke;
-    box-align: center;
-    border: 2px solid aquamarine;
-    padding: 7px;
-    margin: 5px;
-}
-
-div
-{
+    border: 2px solid orange;
     margin: auto;
-    border: 3px solid orange;
-    margin-top: 30px;
-    height: 70%;
-    width: 95%;
+    margin-top: 10px;
+    width: 1300px;
+    height: 500px;
 }
 
-div p
+.box h2
 {
-    font-size: 27px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 170px;
+}
+
+.box p
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
 }
