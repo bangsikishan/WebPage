@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(mountain.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.topnav
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.heading h1
+{
+    color: ghostwhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.paragraph p
+{
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+
+.paragraph hr
+{
+    color: honeydew;
+}
+
+.videos
+{
+    margin: 25px;
+}
+
+.videos iframe
+{
+    margin-left: 34px;
+}
